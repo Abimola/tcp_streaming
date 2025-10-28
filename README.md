@@ -25,6 +25,8 @@ It demonstrates how large-scale unstructured data — in this case, Yelp reviews
 
 ## 3. Architecture Overview
 
+![Architecture](./assets/architecture.png)
+
 ### End-to-End Flow
 
 1. **Data Ingestion (Socket Source)**  
