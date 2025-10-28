@@ -41,9 +41,6 @@ services:
     networks:
       - streaming-network
 
-  # spark-worker-2:
-  #   <<: *worker
-
 
 networks:
   streaming-network:
