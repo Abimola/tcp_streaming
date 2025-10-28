@@ -206,8 +206,7 @@ This architecture emphasizes **scalability**, **fault tolerance**, and **realism
 
 ### Dataset
 
-This project uses the **[Yelp Open Dataset](https://www.yelp.com/dataset)** for research and educational purposes.  
-The dataset is provided under the **[Yelp Dataset License](https://www.yelp.com/dataset/license)**.
+This project uses the **[Yelp Open Dataset](https://www.yelp.com/dataset)**.
 
 ---
 
@@ -216,8 +215,3 @@ The dataset is provided under the **[Yelp Dataset License](https://www.yelp.com/
 **Author:** Abimola Onibi  
 **LinkedIn:** [linkedin.com/in/abimola-onibi](https://www.linkedin.com/in/abimola-onibi/)  
 **GitHub:** [github.com/Abimola](https://github.com/Abimola)
-
----
-
-> **Note:** This project is designed for educational and portfolio demonstration purposes.  
-> It reflects real-world data engineering using modern distributed systems.
