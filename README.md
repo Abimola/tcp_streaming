@@ -130,16 +130,8 @@ tcp_streaming/
 - **Confluent Kafka** cluster credentials  
 - **AWS OpenSearch** domain credentials  
 - **OpenAI API key**  
-- **Dataset:** `./assets/yelp_academic_dataset_review.json` — *not included in the repository (~5 GB)*
+- **Dataset:** `./assets/yelp_academic_dataset_review.json` — *not included in the repository*
 
-
-
-
-### Clone Repository
-```bash
-git clone https://github.com/your-username/tcp_streaming.git
-cd tcp_streaming
-```
 
 
 
@@ -188,8 +180,21 @@ docker exec -it spark-master spark-submit \
 
 Access your **OpenSearch** domain and explore indexed records, sentiment distributions, and real-time analytics.
 
+## 9. Design Rationale
 
-## 11. Future Enhancements
+This architecture emphasizes **scalability**, **fault tolerance**, and **realism** — mirroring production-grade data engineering setups.
+
+| Component | Role | Reason for Choice |
+|------------|------|------------------|
+| **Spark Structured Streaming** | Real-time data transformation | Handles high-throughput data and structured streaming |
+| **OpenAI API** | NLP-based sentiment classification | Demonstrates AI integration in streaming pipelines |
+| **Confluent Kafka** | Message broker | Provides durability and decouples processing layers |
+| **AWS OpenSearch** | Indexing and visualization | Enables powerful full-text search and dashboarding |
+| **Docker** | Environment consistency | Simplifies deployment and reproducibility |
+
+---
+
+## 10. Future Enhancements
 
 - Integrate a **schema registry** for Kafka message validation.  
 - Add **data quality monitoring** and pipeline health metrics.  
@@ -199,25 +204,20 @@ Access your **OpenSearch** domain and explore indexed records, sentiment distrib
 
 ---
 
-## 12. Licensing and Credits
+## 11. Licensing and Credits
 
 ### Dataset
 
 This project uses the **[Yelp Open Dataset](https://www.yelp.com/dataset)** for research and educational purposes.  
-© Yelp Inc. — The dataset is provided under the **[Yelp Dataset License](https://www.yelp.com/dataset/license)**.
-
-### Code & Project
-
-© 2025 **Your Full Name**  
-Released under the **MIT License** — see `LICENSE` for details.
+The dataset is provided under the **[Yelp Dataset License](https://www.yelp.com/dataset/license)**.
 
 ---
 
-## 13. Author
+## 12. Author
 
-**Author:** Your Full Name  
-**LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-**GitHub:** [github.com/your-username](https://github.com/your-username)
+**Author:** Abimola Onibi  
+**LinkedIn:** [linkedin.com/in/abimola-onibi](https://www.linkedin.com/in/abimola-onibi/)  
+**GitHub:** [github.com/Abimola](https://github.com/Abimola)
 
 ---
 
