@@ -9,8 +9,6 @@ This project implements a **real-time data streaming pipeline** that performs **
 
 It demonstrates how large-scale unstructured data — in this case, Yelp reviews — can be ingested, processed, analyzed, and indexed for visualization and search, all in **near real time**.
 
-> **Skills Highlight:** Real-time data engineering, distributed streaming architecture, NLP integration, cloud data indexing, and containerized big data processing.
-
 ---
 
 ## 2. Key Objectives
@@ -187,7 +185,7 @@ This architecture emphasizes **scalability**, **fault tolerance**, and **realism
 | Component | Role | Reason for Choice |
 |------------|------|------------------|
 | **Spark Structured Streaming** | Real-time data transformation | Handles high-throughput data and structured streaming |
-| **OpenAI API** | NLP-based sentiment classification | Demonstrates AI integration in streaming pipelines |
+| **OpenAI API** | Sentiment classification | Demonstrates AI integration in streaming pipelines |
 | **Confluent Kafka** | Message broker | Provides durability and decouples processing layers |
 | **AWS OpenSearch** | Indexing and visualization | Enables powerful full-text search and dashboarding |
 | **Docker** | Environment consistency | Simplifies deployment and reproducibility |
@@ -222,4 +220,4 @@ The dataset is provided under the **[Yelp Dataset License](https://www.yelp.com/
 ---
 
 > **Note:** This project is designed for educational and portfolio demonstration purposes.  
-> It reflects real-world data engineering and NLP integration practices using modern distributed systems.
+> It reflects real-world data engineering using modern distributed systems.
