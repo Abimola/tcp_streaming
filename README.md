@@ -115,8 +115,8 @@ tcp_streaming/
 ### Kafka–OpenSearch Integration
 ![Kafka to OpenSearch Connector](./assets/opensearch_sink_connector.png)
 
-### OpenSearch Dashboards
-![OpenSearch Dashboards](./assets/opensearch_dashboards.png)
+### AWS OpenSearch Index Overview
+![AWS OpenSearch Index Overview](./assets/opensearch_dashboards.png)
 
 ---
 
