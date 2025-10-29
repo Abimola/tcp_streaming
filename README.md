@@ -112,7 +112,7 @@ tcp_streaming/
 
 ## 7. Screenshots
 
-### Kafka–OpenSearch Integration
+### Confluent Kafka – OpenSearch Sink Connector
 ![Kafka to OpenSearch Connector](./assets/opensearch_sink_connector.png)
 
 ### AWS OpenSearch Index Overview
