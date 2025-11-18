@@ -1,4 +1,4 @@
-# Real-Time Data Streaming and Sentiment Analysis Pipeline  
+# Real-Time Sentiment Analysis Pipeline Using Apache Kafka  
 **(Apache Spark | Confluent Kafka | AWS OpenSearch | OpenAI | Docker)**
 
 ---
